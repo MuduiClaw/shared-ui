@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import React, { type ReactNode } from "react";
 
 function cn(...parts: Array<string | null | undefined | false>): string {
   return parts.filter(Boolean).join(" ");

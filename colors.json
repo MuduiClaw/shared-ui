@@ -1,0 +1,83 @@
+{
+  "$schema": "mudui-design-tokens-v1",
+  "$description": "Blue-Book 色系 — 源自公众号排版主题，克制专业高信噪比",
+
+  "primitive": {
+    "white": "#FFFFFF",
+    "zinc": {
+      "50": "#FAFAFA",
+      "100": "#F4F4F5",
+      "200": "#E4E4E7",
+      "300": "#D4D4D8",
+      "400": "#A1A1AA",
+      "500": "#71717A",
+      "600": "#52525B",
+      "700": "#3F3F46",
+      "800": "#27272A",
+      "900": "#18181B",
+      "950": "#09090B"
+    },
+    "blue": {
+      "deep": "#0F4C81",
+      "hover": "#0D3F6E",
+      "light": "#E8EEF4"
+    },
+    "emerald": {
+      "base": "#0D9488",
+      "bg": "#ECFDF5"
+    },
+    "amber": {
+      "base": "#B45309",
+      "bg": "#FFFBEB"
+    },
+    "red": {
+      "base": "#C53030",
+      "bg": "#FEF2F2"
+    }
+  },
+
+  "semantic": {
+    "background": "{primitive.zinc.50}",
+    "surface": "{primitive.white}",
+    "panel": "#F7F8FA",
+    "border": "{primitive.zinc.200}",
+    "border-hover": "{primitive.zinc.300}",
+    "foreground": "#3F3F3F",
+    "foreground-secondary": "#666666",
+    "foreground-muted": "#888888",
+    "accent": "{primitive.blue.deep}",
+    "accent-hover": "{primitive.blue.hover}",
+    "accent-light": "{primitive.blue.light}",
+    "status-healthy": "{primitive.emerald.base}",
+    "status-healthy-bg": "{primitive.emerald.bg}",
+    "status-warning": "{primitive.amber.base}",
+    "status-warning-bg": "{primitive.amber.bg}",
+    "status-error": "{primitive.red.base}",
+    "status-error-bg": "{primitive.red.bg}",
+    "status-info": "{primitive.blue.deep}"
+  },
+
+  "component": {
+    "button-primary-bg": "{semantic.accent}",
+    "button-primary-fg": "{primitive.white}",
+    "button-outline-bg": "{primitive.white}",
+    "button-outline-fg": "{semantic.foreground-secondary}",
+    "button-outline-border": "{semantic.border}",
+    "sidebar-bg": "{primitive.white}",
+    "sidebar-active-fg": "{semantic.accent}",
+    "sidebar-active-border": "{semantic.accent}",
+    "card-bg": "{primitive.white}",
+    "card-border": "{semantic.border}",
+    "table-header-border": "{semantic.accent}",
+    "table-header-bg": "{primitive.zinc.50}",
+    "badge-dot-healthy": "{primitive.emerald.base}",
+    "badge-dot-warning": "{primitive.amber.base}",
+    "badge-dot-error": "{primitive.red.base}",
+    "bold-text": "{semantic.accent}",
+    "code-bg": "#F6F8FA",
+    "code-fg": "{semantic.accent}",
+    "quote-border": "{semantic.accent}",
+    "quote-bg": "#F7F8FA",
+    "quote-fg": "{semantic.foreground-secondary}"
+  }
+}

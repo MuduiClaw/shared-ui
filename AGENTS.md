@@ -1,7 +1,7 @@
 # @muduiclaw/ui — AGENTS.md
 
 ## 项目信息
-- **路径**: `/Users/mudui/projects/shared-ui`
+- **路径**: `/Users/mudui/clawd/projects/shared-ui`
 - **目标**: 共享 UI 组件包，infra-dashboard 和 xhs-dashboard 共用
 - **验证**: `npm run build`
 

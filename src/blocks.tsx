@@ -97,7 +97,7 @@ export function StatusBadge({
     cls = "badge badge-error";
   } else if (/(stale|idle|disabled|none|过期|禁用)/.test(value)) {
     cls = "badge badge-stale";
-  } else if (/(warn|unknown|marginal|待命)/.test(value)) {
+  } else if (/(warn|unknown|marginal|standby|待命)/.test(value)) {
     cls = "badge badge-warn";
   } else {
     cls = "badge badge-info";

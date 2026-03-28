@@ -19,3 +19,4 @@
 - 改 token 前评估对 infra-dashboard 和 xhs-dashboard 的影响
 
 ## 教训
+- [2026-03-28] **StatusBadge pattern 匹配要包含 standby** — 与 infra-dashboard 的 MCP 服务状态同步
